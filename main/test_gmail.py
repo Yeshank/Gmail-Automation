@@ -48,7 +48,7 @@ class TestMain(BaseClass):
 
         # Sending input to To field
         self.element_wait_presence(ComposePage.to_inpt)
-        composepage.get_to_inpt().send_keys('xyz@gmail.com')
+        composepage.get_to_inpt().send_keys('xyzpqrhenop@gmail.com')
 
         # Sending input to Subject_field
         self.element_wait_presence(ComposePage.subject_inpt)
